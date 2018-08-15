@@ -1,13 +1,15 @@
-# Deeplearning in the browser
-with tensorflow.js
+# Predict complementary colors
+## Deeplearning in the browser with tensorflow.js
 
-Example: Predict complementary colors
+### Setup
+1 - `npm install`
 
-## Run
-`npm install`  
-`npm run build`  
-`npm install http-server -g`  
-`cd dist`  
-`http-server`
+2 - `npm install http-server -g`
 
-Goto http://localhost:8080/
+### Run
+
+1 - `npm run build`
+
+2 - `http-server`
+
+Goto [http://localhost:8080/dist](http://localhost:8080/dist)
